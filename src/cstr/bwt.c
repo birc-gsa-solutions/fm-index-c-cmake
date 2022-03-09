@@ -245,18 +245,18 @@ cstr_bwt_preproc *cstr_read_bwt_tables(FILE *f)
 
     size_t read;
     read = fread(&len, sizeof len, 1, f);
-    assert(read == sizeof len);
+    assert(read == 1);
     read = fread(&tables->alpha, sizeof tables->alpha, 1, f);
-    assert(read == sizeof tables->alpha);
+    assert(read == 1);
     tables->sa = cstr_alloc_uislice((long long)len);
     read = fread(tables->sa->buf, len * sizeof tables->sa->buf[0], 1, f);
-    assert(read == len * sizeof tables->sa->buf[0]);
+    assert(read == 1);
     tables->ctab = cstr_malloc(c_table_size(tables->alpha.size));
     read = fread(tables->ctab, c_table_size(tables->alpha.size), 1, f);
-    assert(read == c_table_size(tables->alpha.size));
+    assert(read == 1);
     tables->otab = cstr_malloc(o_table_size(len, tables->alpha.size));
     read = fread(tables->otab, o_table_size(len, tables->alpha.size), 1, f);
-    assert(read == o_table_size(len, tables->alpha.size));
+    assert(read == 1);
 
     return tables;
 }

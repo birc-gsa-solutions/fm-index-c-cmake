@@ -243,14 +243,20 @@ cstr_bwt_preproc *cstr_read_bwt_tables(FILE *f)
     size_t len;
     cstr_bwt_preproc *tables = cstr_malloc(sizeof *tables);
 
-    (void)fread(&len, sizeof len, 1, f);
-    (void)fread(&tables->alpha, sizeof tables->alpha, 1, f);
+    size_t read;
+    read = fread(&len, sizeof len, 1, f);
+    assert(read == sizeof len);
+    read = fread(&tables->alpha, sizeof tables->alpha, 1, f);
+    assert(read == sizeof tables->alpha);
     tables->sa = cstr_alloc_uislice((long long)len);
-    (void)fread(tables->sa->buf, len * sizeof tables->sa->buf[0], 1, f);
+    read = fread(tables->sa->buf, len * sizeof tables->sa->buf[0], 1, f);
+    assert(read == len * sizeof tables->sa->buf[0]);
     tables->ctab = cstr_malloc(c_table_size(tables->alpha.size));
-    (void)fread(tables->ctab, c_table_size(tables->alpha.size), 1, f);
+    read = fread(tables->ctab, c_table_size(tables->alpha.size), 1, f);
+    assert(read == c_table_size(tables->alpha.size));
     tables->otab = cstr_malloc(o_table_size(len, tables->alpha.size));
-    (void)fread(tables->otab, o_table_size(len, tables->alpha.size), 1, f);
+    read = fread(tables->otab, o_table_size(len, tables->alpha.size), 1, f);
+    assert(read == o_table_size(len, tables->alpha.size));
 
     return tables;
 }

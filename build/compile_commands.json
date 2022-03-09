@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -o CMakeFiles/fm.dir/src/fm.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/fm.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/fm.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -o CMakeFiles/fm.dir/src/fasta.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/fasta.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/fasta.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -o CMakeFiles/fm.dir/src/fastq.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/fastq.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/fastq.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -o CMakeFiles/fm.dir/src/sam.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/sam.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/sam.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/alphabet.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/alphabet.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/alphabet.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/bit_vector.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/bit_vector.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/bit_vector.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/bwt.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/bwt.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/bwt.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/cstr.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/cstr.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/cstr.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/exact.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/exact.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/exact.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/li_durbin.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/li_durbin.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/li_durbin.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/sais.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/sais.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/sais.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/skew.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/skew.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/skew.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=c2x -o CMakeFiles/cstr.dir/suffix_array.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/suffix_array.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr/suffix_array.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -std=gnu2x -o CMakeFiles/testlib.dir/testlib.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/testlib.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/testlib.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=gnu2x -o CMakeFiles/alphabet_test.dir/alphabet_test.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/alphabet_test.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/alphabet_test.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=gnu2x -o CMakeFiles/bit_vector_test.dir/bit_vector_test.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/bit_vector_test.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/bit_vector_test.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=gnu2x -o CMakeFiles/bwt_test.dir/bwt_test.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/bwt_test.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/bwt_test.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=gnu2x -o CMakeFiles/cstr_test.dir/cstr_test.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/cstr_test.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/cstr_test.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=gnu2x -o CMakeFiles/li_durbin_test.dir/li_durbin_test.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/li_durbin_test.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/li_durbin_test.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=gnu2x -o CMakeFiles/sa_test.dir/sa_test.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/sa_test.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/sa_test.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=gnu2x -o CMakeFiles/sais_test.dir/sais_test.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/sais_test.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/sais_test.c"
+},
+{
+  "directory": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test",
+  "command": "/usr/local/bin/x86_64-apple-darwin19-gcc-9.2.0  -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/cstr -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test -I/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build/src/test -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wcast-align -Wcast-qual -Wconversion -Wmissing-noreturn -Wmissing-prototypes -Wno-missing-braces -Wshadow -Werror -Wall -O3 -std=gnu2x -o CMakeFiles/skew_test.dir/skew_test.c.o -c /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/skew_test.c",
+  "file": "/Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/src/test/skew_test.c"
+}
+]

@@ -243,14 +243,14 @@ cstr_bwt_preproc *cstr_read_bwt_tables(FILE *f)
     size_t len;
     cstr_bwt_preproc *tables = cstr_malloc(sizeof *tables);
 
-    fread(&len, sizeof len, 1, f);
-    fread(&tables->alpha, sizeof tables->alpha, 1, f);
+    (void)fread(&len, sizeof len, 1, f);
+    (void)fread(&tables->alpha, sizeof tables->alpha, 1, f);
     tables->sa = cstr_alloc_uislice((long long)len);
-    fread(tables->sa->buf, len * sizeof tables->sa->buf[0], 1, f);
+    (void)fread(tables->sa->buf, len * sizeof tables->sa->buf[0], 1, f);
     tables->ctab = cstr_malloc(c_table_size(tables->alpha.size));
-    fread(tables->ctab, c_table_size(tables->alpha.size), 1, f);
+    (void)fread(tables->ctab, c_table_size(tables->alpha.size), 1, f);
     tables->otab = cstr_malloc(o_table_size(len, tables->alpha.size));
-    fread(tables->otab, o_table_size(len, tables->alpha.size), 1, f);
+    (void)fread(tables->otab, o_table_size(len, tables->alpha.size), 1, f);
 
     return tables;
 }

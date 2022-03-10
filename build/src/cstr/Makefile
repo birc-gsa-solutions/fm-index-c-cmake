@@ -305,30 +305,6 @@ exact.c.s:
 	cd /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build && $(MAKE) $(MAKESILENT) -f src/cstr/CMakeFiles/cstr.dir/build.make src/cstr/CMakeFiles/cstr.dir/exact.c.s
 .PHONY : exact.c.s
 
-li_durbin.o: li_durbin.c.o
-.PHONY : li_durbin.o
-
-# target to build an object file
-li_durbin.c.o:
-	cd /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build && $(MAKE) $(MAKESILENT) -f src/cstr/CMakeFiles/cstr.dir/build.make src/cstr/CMakeFiles/cstr.dir/li_durbin.c.o
-.PHONY : li_durbin.c.o
-
-li_durbin.i: li_durbin.c.i
-.PHONY : li_durbin.i
-
-# target to preprocess a source file
-li_durbin.c.i:
-	cd /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build && $(MAKE) $(MAKESILENT) -f src/cstr/CMakeFiles/cstr.dir/build.make src/cstr/CMakeFiles/cstr.dir/li_durbin.c.i
-.PHONY : li_durbin.c.i
-
-li_durbin.s: li_durbin.c.s
-.PHONY : li_durbin.s
-
-# target to generate assembly for a file
-li_durbin.c.s:
-	cd /Users/mailund/Classroom/solutions/gsa/fm-index-c-cmake/build && $(MAKE) $(MAKESILENT) -f src/cstr/CMakeFiles/cstr.dir/build.make src/cstr/CMakeFiles/cstr.dir/li_durbin.c.s
-.PHONY : li_durbin.c.s
-
 sais.o: sais.c.o
 .PHONY : sais.o
 
@@ -430,9 +406,6 @@ help:
 	@echo "... exact.o"
 	@echo "... exact.i"
 	@echo "... exact.s"
-	@echo "... li_durbin.o"
-	@echo "... li_durbin.i"
-	@echo "... li_durbin.s"
 	@echo "... sais.o"
 	@echo "... sais.i"
 	@echo "... sais.s"

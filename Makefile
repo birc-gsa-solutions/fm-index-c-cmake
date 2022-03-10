@@ -263,19 +263,6 @@ cstr_test/fast:
 .PHONY : cstr_test/fast
 
 #=============================================================================
-# Target rules for targets named li_durbin_test
-
-# Build rule for target.
-li_durbin_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 li_durbin_test
-.PHONY : li_durbin_test
-
-# fast build rule for target.
-li_durbin_test/fast:
-	$(MAKE) $(MAKESILENT) -f src/test/CMakeFiles/li_durbin_test.dir/build.make src/test/CMakeFiles/li_durbin_test.dir/build
-.PHONY : li_durbin_test/fast
-
-#=============================================================================
 # Target rules for targets named sa_test
 
 # Build rule for target.
@@ -429,7 +416,6 @@ help:
 	@echo "... cstr"
 	@echo "... cstr_test"
 	@echo "... fm"
-	@echo "... li_durbin_test"
 	@echo "... sa_test"
 	@echo "... sais_test"
 	@echo "... skew_test"
